@@ -14,7 +14,7 @@ export default function Home() {
       <Layout>
         <Container>
           <h1 className="text-center">Kevins Portfolio Website</h1>
-          {/* <CarouselView /> */}
+          <CarouselView />
         </Container>
       </Layout>
     </>
