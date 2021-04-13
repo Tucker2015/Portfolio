@@ -5,7 +5,7 @@ export default function Home() {
     <>
       <Layout>
         <div>
-          <h1 className="text-center">Kevins Portfolio</h1>
+          <h1 className="text-center">Kevins Portfolio Website</h1>
         </div>
       </Layout>
     </>
