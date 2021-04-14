@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Layout, CarouselView } from "../components";
 import { Container } from "react-bootstrap";
 import Image from "next/image";
+import { SliderData } from "../components/Carousel/SliderData";
 
 export default function Home() {
   const [show, setShow] = useState(false);
@@ -12,10 +13,10 @@ export default function Home() {
   return (
     <>
       <Layout>
-        <Container>
-          <h1 className="text-center">Kevins Portfolio Website</h1>
-          <CarouselView />
+        <Container className="sm-container mb-5">
+          <h1 className="text-center">Kevins Portfolio</h1>
         </Container>
+        <CarouselView slides={SliderData} />
       </Layout>
     </>
   );
